@@ -1,0 +1,5 @@
+jupyter lab --ip r2i2n0 --no-browser --port 8877 --notebook-dir /home1/datahome/xyu
+ssh -N -L 8877:r2i2n0:8877 -L 8787:r2i0n0:8787 xyu@datarmor1-10g
+Then open the following URLs:
+	Jupyter lab: http://localhost:8877
+	Dask dashboard: http://localhost:8787

@@ -1,0 +1,13 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Thu May  3 11:37:38 GMT 2018
+[I 11:39:14.322 LabApp] JupyterLab beta preview extension loaded from /home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/jupyterlab
+[I 11:39:14.322 LabApp] JupyterLab application directory is /home1/datahome/xyu/.miniconda3/envs/equinox/share/jupyter/lab
+[I 11:39:14.331 LabApp] Serving notebooks from local directory: /home1/datahome/xyu
+[I 11:39:14.331 LabApp] 0 active kernels
+[I 11:39:14.331 LabApp] The Jupyter Notebook is running at:
+[I 11:39:14.331 LabApp] http://r2i2n0:8877/
+[I 11:39:14.332 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+Terminated
+[C 11:40:25.463 LabApp] received signal 15, stopping
+[I 11:40:25.499 LabApp] Shutting down 0 kernels
