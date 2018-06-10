@@ -2,6 +2,7 @@
 
 from distutils.core import setup
 import numpy
+import scipy 
 
 setup(name='mitequinox',
       description='LLC4320 numerical simulation analysis',
