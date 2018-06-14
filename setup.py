@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
+import numpy
 
 setup(name='mitequinox',
       description='LLC4320 numerical simulation analysis',
