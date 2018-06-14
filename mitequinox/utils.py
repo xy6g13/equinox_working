@@ -15,6 +15,7 @@ import xmitgcm as xm
 datawork = os.getenv('DATAWORK')
 home = os.getenv('HOME')
 scratch = os.getenv('SCRATCH')
+osi = '/home/datawork-lops-osi/aponte/'
 #
 root_data_dir = '/home/datawork-lops-osi/data/mit4320/'
 grid_dir = root_data_dir+'grid/'
@@ -172,7 +173,7 @@ def get_iters_time(varname, data_dir, delta_t=25.):
 
 #
 def plot_scalar(v, colorbar=False, title=None, vmin=None, vmax=None, savefig=None, 
-                offline=False, coast_resolution='110m', figsize=(10,10), cmmap='balance'):
+                offline=False, coast_resolution='110m', figsize=(10,10), cmmap='thermal'):
     #
     if vmin is None:
         vmin = v.min()

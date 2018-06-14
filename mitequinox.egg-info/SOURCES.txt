@@ -1,7 +1,0 @@
-README.md
-mitequinox/__init__.py
-mitequinox/utils.py
-mitequinox.egg-info/PKG-INFO
-mitequinox.egg-info/SOURCES.txt
-mitequinox.egg-info/dependency_links.txt
-mitequinox.egg-info/top_level.txt
