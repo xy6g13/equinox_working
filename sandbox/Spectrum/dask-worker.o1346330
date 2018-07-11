@@ -1,0 +1,462 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.1.20:56518'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.1.20:46849'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:    tcp://10.148.1.20:36069
+distributed.worker - INFO -          Listening to:    tcp://10.148.1.20:36069
+distributed.worker - INFO -              nanny at:          10.148.1.20:46849
+distributed.worker - INFO -              bokeh at:           10.148.1.20:8789
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-4cymywvy
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:    tcp://10.148.1.20:58030
+distributed.worker - INFO -          Listening to:    tcp://10.148.1.20:58030
+distributed.worker - INFO -              nanny at:          10.148.1.20:56518
+distributed.worker - INFO -              bokeh at:          10.148.1.20:59228
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-tjege93u
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.protocol.core - CRITICAL - Failed to deserialize
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 46, in dask_loads
+    dumps, loads = class_serializers[typ]
+KeyError: 'numpy.ndarray'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/core.py", line 122, in loads
+    value = _deserialize(head, fs, deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 236, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 48, in dask_loads
+    raise TypeError("Serialization for type %s not found" % typ)
+TypeError: Serialization for type numpy.ndarray not found
+distributed.worker - ERROR - Serialization for type numpy.ndarray not found
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 46, in dask_loads
+    dumps, loads = class_serializers[typ]
+KeyError: 'numpy.ndarray'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 610, in send_recv_from_rpc
+    result = yield send_recv(comm=comm, op=key, **kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 432, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/tcp.py", line 203, in read
+    deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/utils.py", line 77, in from_frames
+    res = yield offload(_from_frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/utils.py", line 65, in _from_frames
+    deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/core.py", line 122, in loads
+    value = _deserialize(head, fs, deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 236, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 48, in dask_loads
+    raise TypeError("Serialization for type %s not found" % typ)
+TypeError: Serialization for type numpy.ndarray not found
+distributed.worker - INFO - Can't find dependencies for key ('detrend-multiply-fftn-ff47af91f0a9399d975c9d8173d97c8c', 85, 0, 0)
+distributed.utils - ERROR - Serialization for type numpy.ndarray not found
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 46, in dask_loads
+    dumps, loads = class_serializers[typ]
+KeyError: 'numpy.ndarray'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py", line 644, in log_errors
+    yield
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 610, in send_recv_from_rpc
+    result = yield send_recv(comm=comm, op=key, **kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 432, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/tcp.py", line 203, in read
+    deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/utils.py", line 77, in from_frames
+    res = yield offload(_from_frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/utils.py", line 65, in _from_frames
+    deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/core.py", line 122, in loads
+    value = _deserialize(head, fs, deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 236, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 48, in dask_loads
+    raise TypeError("Serialization for type %s not found" % typ)
+TypeError: Serialization for type numpy.ndarray not found
+distributed.worker - INFO - Dependent not found: ('where-df72cf21e168d64356411fd221dff700', 85, 0, 0) 0 .  Asking scheduler
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aaade1f3b70>, <Future finished exception=TypeError('Serialization for type numpy.ndarray not found',)>)
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 46, in dask_loads
+    dumps, loads = class_serializers[typ]
+KeyError: 'numpy.ndarray'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/ioloop.py", line 759, in _run_callback
+    ret = callback()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/stack_context.py", line 276, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/ioloop.py", line 780, in _discard_future_result
+    future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 610, in send_recv_from_rpc
+    result = yield send_recv(comm=comm, op=key, **kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 432, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/tcp.py", line 203, in read
+    deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/utils.py", line 77, in from_frames
+    res = yield offload(_from_frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/utils.py", line 65, in _from_frames
+    deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/core.py", line 122, in loads
+    value = _deserialize(head, fs, deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 236, in deserialize
+    return loads(header, frames)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/protocol/serialize.py", line 48, in dask_loads
+    raise TypeError("Serialization for type %s not found" % typ)
+TypeError: Serialization for type numpy.ndarray not found
+distributed.core - INFO - Event loop was unresponsive in Worker for 13.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 15.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.0.146:51853
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 186, in connect
+    quiet_exceptions=EnvironmentError)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 608, in send_recv_from_rpc
+    comm = yield self.pool.connect(self.addr)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 719, in connect
+    connection_args=self.connection_args)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 195, in connect
+    _raise(error)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 178, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.148.0.146:51853' after 10 s: connect() didn't finish in time
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.0.219:37838
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 186, in connect
+    quiet_exceptions=EnvironmentError)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 608, in send_recv_from_rpc
+    comm = yield self.pool.connect(self.addr)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 719, in connect
+    connection_args=self.connection_args)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 195, in connect
+    _raise(error)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 178, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.148.0.219:37838' after 10 s: connect() didn't finish in time
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.0.212:45491
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 186, in connect
+    quiet_exceptions=EnvironmentError)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 608, in send_recv_from_rpc
+    comm = yield self.pool.connect(self.addr)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 719, in connect
+    connection_args=self.connection_args)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 195, in connect
+    _raise(error)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 178, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.148.0.212:45491' after 10 s: connect() didn't finish in time
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.0.166:53828
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 186, in connect
+    quiet_exceptions=EnvironmentError)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 608, in send_recv_from_rpc
+    comm = yield self.pool.connect(self.addr)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 719, in connect
+    connection_args=self.connection_args)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 195, in connect
+    _raise(error)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 178, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.148.0.166:53828' after 10 s: connect() didn't finish in time
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.1.33:50899
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 186, in connect
+    quiet_exceptions=EnvironmentError)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 608, in send_recv_from_rpc
+    comm = yield self.pool.connect(self.addr)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 719, in connect
+    connection_args=self.connection_args)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 195, in connect
+    _raise(error)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 178, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.148.1.33:50899' after 10 s: connect() didn't finish in time
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.0.193:36790
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 186, in connect
+    quiet_exceptions=EnvironmentError)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.util.TimeoutError: Timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 608, in send_recv_from_rpc
+    comm = yield self.pool.connect(self.addr)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 719, in connect
+    connection_args=self.connection_args)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 195, in connect
+    _raise(error)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/core.py", line 178, in _raise
+    raise IOError(msg)
+OSError: Timed out trying to connect to 'tcp://10.148.0.193:36790' after 10 s: connect() didn't finish in time
+distributed.worker - INFO - Can't find dependencies for key ('detrend-multiply-fftn-ff47af91f0a9399d975c9d8173d97c8c', 365, 6, 0)
+distributed.worker - INFO - Dependent not found: ('where-df72cf21e168d64356411fd221dff700', 365, 6, 0) 0 .  Asking scheduler
+distributed.worker - INFO - Can't find dependencies for key ('detrend-multiply-fftn-ff47af91f0a9399d975c9d8173d97c8c', 102, 0, 0)
+distributed.worker - INFO - Dependent not found: ('where-df72cf21e168d64356411fd221dff700', 102, 0, 0) 0 .  Asking scheduler
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.worker - INFO - Can't find dependencies for key ('detrend-multiply-fftn-ff47af91f0a9399d975c9d8173d97c8c', 396, 8, 0)
+distributed.worker - INFO - Dependent not found: ('where-df72cf21e168d64356411fd221dff700', 396, 8, 0) 0 .  Asking scheduler
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.utils_perf - INFO - full garbage collection released 49.77 MB from 0 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 66.96 MB from 0 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 13.03 MB from 65333 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 25.16 MB from 129822 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 13.73 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 24.04 MB from 129719 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.66 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 18.47 MB from 129719 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 19.23 MB from 194559 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.66 MB from 64879 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 13.78 MB from 64885 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.98 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.08 MB from 64926 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Stopping worker at tcp://10.148.1.20:58030
+distributed.worker - INFO - Stopping worker at tcp://10.148.1.20:36069
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.1.20:56518'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.1.20:46849'
+distributed.dask_worker - INFO - End worker
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)

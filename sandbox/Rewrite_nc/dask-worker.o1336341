@@ -1,0 +1,96 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.102:45326'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.102:42651'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.102:41190
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.102:41190
+distributed.worker - INFO -              nanny at:         10.148.0.102:45326
+distributed.worker - INFO -              bokeh at:          10.148.0.102:8789
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.102:36073
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.1.13:54543
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.102:36073
+distributed.worker - INFO -              nanny at:         10.148.0.102:42651
+distributed.worker - INFO -              bokeh at:         10.148.0.102:57086
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.1.13:54543
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1335990.datarmor0/worker-g0tpds8e
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1335990.datarmor0/worker-xpbm_7dc
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:    tcp://10.148.1.13:54543
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:    tcp://10.148.1.13:54543
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/cmocean/tools.py:76: MatplotlibDeprecationWarning: The is_string_like function was deprecated in version 2.1.
+  if not mpl.cbook.is_string_like(rgbin[0]):
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/cmocean/tools.py:76: MatplotlibDeprecationWarning: The is_string_like function was deprecated in version 2.1.
+  if not mpl.cbook.is_string_like(rgbin[0]):
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/base.py:835: UserWarning: The get= keyword has been deprecated. Please use the scheduler= keyword instead with the name of the desired scheduler like 'threads' or 'processes'
+  warnings.warn("The get= keyword has been deprecated. "
+distributed.utils_perf - INFO - full garbage collection released 870.91 MB from 168 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 39.47 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 39.38 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.16 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 39.74 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.19 GB -- Worker memory limit: 50.00 GB
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/base.py:835: UserWarning: The get= keyword has been deprecated. Please use the scheduler= keyword instead with the name of the desired scheduler like 'threads' or 'processes'
+  warnings.warn("The get= keyword has been deprecated. "
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.46 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 39.89 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.04 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 39.93 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 40.98 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 39.90 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.27 GB -- Worker memory limit: 50.00 GB
+distributed.utils_perf - INFO - full garbage collection released 1.49 GB from 319 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 39.60 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.26 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 79% memory usage. Resuming worker. Process memory: 39.86 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 40.96 GB -- Worker memory limit: 50.00 GB
+distributed.utils_perf - INFO - full garbage collection released 1.65 GB from 0 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 37.65 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 75% memory usage. Resuming worker. Process memory: 37.69 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 40.83 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 40.33 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 39.43 GB -- Worker memory limit: 50.00 GB
+distributed.utils_perf - INFO - full garbage collection released 970.45 MB from 646 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 39.22 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 41.67 GB -- Worker memory limit: 50.00 GB
+distributed.utils_perf - INFO - full garbage collection released 877.71 MB from 376 reference cycles (threshold: 10.00 MB)
+distributed.worker - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 39.23 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 39.44 GB -- Worker memory limit: 50.00 GB
+distributed.worker - WARNING - Worker is at 78% memory usage. Resuming worker. Process memory: 39.38 GB -- Worker memory limit: 50.00 GB
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.95s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 1.92 GB from 200472 reference cycles (threshold: 10.00 MB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 3.62 GB from 202395 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 1.66 GB from 398658 reference cycles (threshold: 10.00 MB)
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.22s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.12s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.102:36073
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.102:41190
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.102:45326'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.102:42651'
+distributed.dask_worker - INFO - End worker
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)

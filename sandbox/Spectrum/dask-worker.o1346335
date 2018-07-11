@@ -1,0 +1,97 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.181:37480'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.181:55217'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.181:52084
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.181:52084
+distributed.worker - INFO -              nanny at:         10.148.0.181:37480
+distributed.worker - INFO -              bokeh at:          10.148.0.181:8789
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-5hlhq6ft
+distributed.worker - INFO - -------------------------------------------------
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.181:42606
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.181:42606
+distributed.worker - INFO -              nanny at:         10.148.0.181:55217
+distributed.worker - INFO -              bokeh at:         10.148.0.181:51575
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-cys0wfeo
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.utils_perf - INFO - full garbage collection released 131.48 MB from 0 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 13.63 MB from 64885 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.44 MB from 64851 reference cycles (threshold: 10.00 MB)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.worker - ERROR - Worker stream died during communication: tcp://10.148.0.144:60204
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/tcp.py", line 187, in read
+    n = yield stream.read_into(frame)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py", line 1774, in gather_dep
+    who=self.address)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 610, in send_recv_from_rpc
+    result = yield send_recv(comm=comm, op=key, **kwargs)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/core.py", line 432, in send_recv
+    response = yield comm.read(deserializers=deserializers)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+    value = future.result()
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/tcp.py", line 198, in read
+    convert_stream_closed_error(self, e)
+  File "/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/comm/tcp.py", line 126, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s" % (obj, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: Stream is closed
+distributed.utils_perf - INFO - full garbage collection released 10.53 MB from 64907 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 52.67 MB from 16 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.33 MB from 64950 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 22.27 MB from 129703 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 43.84 MB from 259756 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 1.02 GB from 5129607 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 49.64 MB from 1250 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.181:42606
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.181:52084
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.181:55217'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.181:37480'
+distributed.dask_worker - INFO - End worker
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)

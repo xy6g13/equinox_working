@@ -1,0 +1,70 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.73:33144'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.73:52406'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.73:36892
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.73:36892
+distributed.worker - INFO -              nanny at:          10.148.0.73:33144
+distributed.worker - INFO -              bokeh at:           10.148.0.73:8789
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-a1amlyjl
+distributed.worker - INFO - -------------------------------------------------
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.73:52371
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.73:52371
+distributed.worker - INFO -              nanny at:          10.148.0.73:52406
+distributed.worker - INFO -              bokeh at:          10.148.0.73:49515
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-_maq7ff3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.61s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.62s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.utils_perf - INFO - full garbage collection released 10.52 MB from 64851 reference cycles (threshold: 10.00 MB)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 12.42 MB from 64990 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.37 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 19.99 MB from 129920 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 13.41 MB from 129703 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 64.55 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.64 MB from 64878 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 31.91 MB from 259614 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 22.52 MB from 129786 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 109.29 MB from 64917 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 23.83 MB from 129924 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 110.01 MB from 64970 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.01 MB from 65308 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 35.66 MB from 194734 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 1.16 GB from 5779125 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 249.64 MB from 1132 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.73:36892
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.73:52371
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.73:33144'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.73:52406'
+distributed.dask_worker - INFO - End worker
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)

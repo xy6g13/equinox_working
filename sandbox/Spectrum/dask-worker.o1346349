@@ -1,0 +1,76 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.193:52726'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.193:49636'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.193:36790
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.193:36790
+distributed.worker - INFO -              nanny at:         10.148.0.193:52726
+distributed.worker - INFO -              bokeh at:          10.148.0.193:8789
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-j9rvog4v
+distributed.worker - INFO - -------------------------------------------------
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.193:51776
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.193:51776
+distributed.worker - INFO -              nanny at:         10.148.0.193:49636
+distributed.worker - INFO -              bokeh at:         10.148.0.193:34055
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1346232.datarmor0/worker-rd366bt1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.2:35178
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.01s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.30s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.utils_perf - INFO - full garbage collection released 46.68 MB from 35 reference cycles (threshold: 10.00 MB)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/array/chunk.py:228: ComplexWarning: Casting complex values to real discards the imaginary part
+  return x.astype(astype_dtype, **kwargs)
+distributed.utils_perf - INFO - full garbage collection released 98.37 MB from 0 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 24.32 MB from 129703 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.41 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 20.15 MB from 129704 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Can't find dependencies for key ('detrend-multiply-fftn-ff47af91f0a9399d975c9d8173d97c8c', 405, 6, 0)
+distributed.worker - INFO - Dependent not found: ('where-df72cf21e168d64356411fd221dff700', 405, 6, 0) 0 .  Asking scheduler
+distributed.utils_perf - INFO - full garbage collection released 21.67 MB from 129769 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 17.27 MB from 129703 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 21.64 MB from 129768 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.21 MB from 64853 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.78 MB from 64919 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 11.02 MB from 64936 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 32.92 MB from 194689 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 1.06 GB from 5255822 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 756.55 MB from 3829585 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 398.16 MB from 2898 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 199.34 MB from 1200 reference cycles (threshold: 10.00 MB)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py:745: RuntimeWarning: divide by zero encountered in true_divide
+  return func(*map(execute_task, args))
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/worker.py:745: RuntimeWarning: invalid value encountered in true_divide
+  return func(*map(execute_task, args))
+distributed.utils_perf - INFO - full garbage collection released 497.97 MB from 1849 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.193:36790
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.193:51776
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.193:52726'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.193:49636'
+distributed.dask_worker - INFO - End worker

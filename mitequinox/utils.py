@@ -173,7 +173,7 @@ def get_iters_time(varname, data_dir, delta_t=25.):
 
 #
 def plot_scalar(v, colorbar=False, title=None, vmin=None, vmax=None, savefig=None, 
-                offline=False, coast_resolution='110m', figsize=(10,10), cmmap='thermal'):
+                offline=False, coast_resolution='110m', figsize=(10,10), cmmap='balance'):
     #
     if vmin is None:
         vmin = v.min()
