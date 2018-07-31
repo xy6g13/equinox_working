@@ -1,0 +1,49 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.27:50715'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.27:59197'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.1460607.datarmor0/worker-fi6eafcp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.1460607.datarmor0/worker-nsu9cjpf', purging
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.27:55444
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.27:55444
+distributed.worker - INFO -              nanny at:          10.148.0.27:50715
+distributed.worker - INFO -              bokeh at:           10.148.0.27:8789
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.6:57287
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1460607.datarmor0/worker-3f6h3b50
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.6:57287
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.27:51140
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.27:51140
+distributed.worker - INFO -              nanny at:          10.148.0.27:59197
+distributed.worker - INFO -              bokeh at:          10.148.0.27:47909
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.6:57287
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.1460607.datarmor0/worker-2fwt9xs0
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.6:57287
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.27:55444
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.27:51140
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.27:59197'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.27:50715'
+Terminated
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.dask_worker - INFO - End worker
