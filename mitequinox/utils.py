@@ -128,8 +128,16 @@ def get_compressed_data(varname, data_dir, grid_dir, ds_index=None, ds=None, ite
     data = dask.array.concatenate([lazily_load_level_from_3D_field
                             (data_dir, varname, i, offset, count, mask_future, shape, dtype)
                             for i in iters], axis=0)
-
-    ds[varname] = xr.Variable(['time', 'face', 'j', 'i'], data)   
+    
+    if point is 'C':
+        dims = ['time', 'face', 'j', 'i']
+    elif point is 'W':
+        dims = ['time', 'face', 'j', 'i_g']
+    elif point is 'S':
+        dims = ['time', 'face', 'j_g', 'i']
+    
+    ds[varname] = xr.Variable(dims, data)
+    
     if time is not None:
         ds['time'] = time.sel(iters=iters).values
     
