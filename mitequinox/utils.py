@@ -202,7 +202,7 @@ def iters_to_date(iters, delta_t=25.):
 
 #
 def plot_scalar(v, colorbar=False, title=None, vmin=None, vmax=None, savefig=None, 
-                offline=False, coast_resolution='110m', figsize=(10,10), cmmap='thermal'):
+                offline=False, coast_resolution='110m', figsize=(10,10), cmmap='balance'):
     #
     if vmin is None:
         vmin = v.min()
@@ -218,10 +218,9 @@ def plot_scalar(v, colorbar=False, title=None, vmin=None, vmax=None, savefig=Non
         ax = fig.add_subplot(111, projection=ccrs.PlateCarree())
         #ax = fig.add_subplot(111)
         cmap = getattr(cm, cmmap)
-        try:
+        try:           
             im = v.plot.pcolormesh(ax=ax, transform=ccrs.PlateCarree(), vmin=vmin, vmax=vmax,
-                                   x='XC', y='YC', add_colorbar=colorbar, cmap=cmap)
-            #im = v.plot.pcolormesh(ax=ax, add_colorbar=False, cmap=cmap)
+                                   #x='XC', y='YC', add_colorbar=colorbar, cmap=cmap)
             fig.colorbar(im)
             gl=ax.gridlines(crs=ccrs.PlateCarree(), draw_labels=True, linewidth=2, color='k', 
                             alpha=0.5, linestyle='--')
