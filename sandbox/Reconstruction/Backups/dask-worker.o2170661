@@ -1,0 +1,45 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.246:45154'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.246:46940'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.246:42168
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.246:42168
+distributed.worker - INFO -              nanny at:         10.148.0.246:46940
+distributed.worker - INFO -              bokeh at:         10.148.0.246:38893
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.2170577.datarmor0/worker-kdu8pxd1
+distributed.worker - INFO - -------------------------------------------------
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.246:37370
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.246:37370
+distributed.worker - INFO -              nanny at:         10.148.0.246:45154
+distributed.worker - INFO -              bokeh at:          10.148.0.246:8789
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.2170577.datarmor0/worker-t5momg3b
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.0.38:32836
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.246:45154'
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.246:37370
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.246:46940'
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.246:42168
+distributed.dask_worker - INFO - End worker
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
