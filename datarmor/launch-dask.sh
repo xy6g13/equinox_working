@@ -1,4 +1,7 @@
 #!/bin/bash
+# Usage:
+
+# ./launch
 
 rm daskf.pbs &> /dev/null
 
@@ -19,7 +22,7 @@ fi
 
 echo "Number of nodes used for dask: $NNODES"
 
-qsub daskf.pbs
+qsub -m n daskf.pbs
 
 
 

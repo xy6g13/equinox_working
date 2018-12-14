@@ -1,0 +1,42 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Fri Dec 14 16:02:03 GMT 2018
+[I 16:02:05.268 LabApp] JupyterLab beta preview extension loaded from /home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/jupyterlab
+[I 16:02:05.268 LabApp] JupyterLab application directory is /home1/datahome/xyu/.miniconda3/envs/equinox/share/jupyter/lab
+[W 16:02:05.272 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 16:02:05.273 LabApp] JupyterLab beta preview extension loaded from /home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/jupyterlab
+[I 16:02:05.273 LabApp] JupyterLab application directory is /home1/datahome/xyu/.miniconda3/envs/equinox/share/jupyter/lab
+[I 16:02:05.290 LabApp] Serving notebooks from local directory: /home1/datahome/xyu
+[I 16:02:05.291 LabApp] 0 active kernels
+[I 16:02:05.291 LabApp] The Jupyter Notebook is running at:
+[I 16:02:05.291 LabApp] http://r1i3n13:8877/
+[I 16:02:05.291 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:03:05.348 LabApp] Could not determine jupyterlab build status without nodejs
+[I 16:03:07.800 LabApp] Kernel started: 33f08e6d-b13e-4a94-a7fa-cb69866997e1
+readline: /etc/inputrc: line 19: term: unknown variable name
+[I 16:03:08.539 LabApp] Adapting to protocol v5.1 for kernel 33f08e6d-b13e-4a94-a7fa-cb69866997e1
+[I 16:03:08.539 LabApp] Adapting to protocol v5.1 for kernel 33f08e6d-b13e-4a94-a7fa-cb69866997e1
+[W 16:03:16.879 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275359
+[W 16:03:16.925 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275362
+[W 16:03:16.929 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275363
+[W 16:03:16.932 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275364
+[W 16:03:16.936 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275366
+[W 16:03:16.939 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275367
+[W 16:03:16.942 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275368
+[W 16:03:16.946 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275365
+[W 16:03:16.949 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275369
+[W 16:03:16.953 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275370
+[W 16:03:16.956 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275371
+[W 16:03:16.959 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275372
+[W 16:03:16.963 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275360
+[W 16:03:16.966 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275361
+[W 16:03:16.970 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275373
+[W 16:03:16.974 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275374
+[W 16:03:16.977 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275375
+[W 16:03:16.980 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275376
+[W 16:03:16.987 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275377
+[W 16:03:16.991 LabApp] delete /equinox_working/sandbox/Rotary_spectrum/LLC_Zarr/dask-worker.o2275378
+Terminated
+[C 16:04:23.556 LabApp] received signal 15, stopping
+[I 16:04:23.557 LabApp] Shutting down 1 kernel
+[I 16:04:23.758 LabApp] Kernel shutdown: 33f08e6d-b13e-4a94-a7fa-cb69866997e1
