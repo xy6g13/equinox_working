@@ -1,0 +1,71 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.121:47378'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.121:55022'
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2474018.datarmor0/worker-dj__31o1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/dev/shm/pbs.2474018.datarmor0/worker-5bf5ak1i', purging
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.121:34194
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.121:34194
+distributed.worker - INFO -              nanny at:         10.148.0.121:55022
+distributed.worker - INFO -              bokeh at:          10.148.0.121:8789
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.6:56051
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.2474018.datarmor0/worker-gwbosmfq
+distributed.worker - INFO -       Start worker at:   tcp://10.148.0.121:59300
+distributed.worker - INFO -          Listening to:   tcp://10.148.0.121:59300
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:         10.148.0.121:47378
+distributed.worker - INFO -              bokeh at:         10.148.0.121:52496
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.1.6:56051
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   50.00 GB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.2474018.datarmor0/worker-ngoznced
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.6:56051
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:     tcp://10.148.1.6:56051
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/cmocean/tools.py:76: MatplotlibDeprecationWarning: The is_string_like function was deprecated in version 2.1.
+  if not mpl.cbook.is_string_like(rgbin[0]):
+distributed.core - INFO - Event loop was unresponsive in Worker for 42.51s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/cmocean/tools.py:76: MatplotlibDeprecationWarning: The is_string_like function was deprecated in version 2.1.
+  if not mpl.cbook.is_string_like(rgbin[0]):
+distributed.core - INFO - Event loop was unresponsive in Worker for 42.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/base.py:835: UserWarning: The get= keyword has been deprecated. Please use the scheduler= keyword instead with the name of the desired scheduler like 'threads' or 'processes'
+  warnings.warn("The get= keyword has been deprecated. "
+distributed.utils_perf - INFO - full garbage collection released 947.79 MB from 200 reference cycles (threshold: 10.00 MB)
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/dask/base.py:835: UserWarning: The get= keyword has been deprecated. Please use the scheduler= keyword instead with the name of the desired scheduler like 'threads' or 'processes'
+  warnings.warn("The get= keyword has been deprecated. "
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.05s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 863.65 MB from 259 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 1.04 GB from 3682 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.121:34194
+distributed.worker - INFO - Stopping worker at tcp://10.148.0.121:59300
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.121:47378'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.121:55022'
+distributed.dask_worker - INFO - End worker
+/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.6/site-packages/distributed/utils.py:128: RuntimeWarning: Couldn't detect a suitable IP address for reaching '8.8.8.8', defaulting to '127.0.0.1': [Errno 101] Network is unreachable
+  % (host, default, e), RuntimeWarning)
