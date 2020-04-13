@@ -23,24 +23,24 @@ try:
     scratch = os.getenv('SCRATCH')+'/'
     osi = '/home/datawork-lops-osi/aponte/'
     #
-    root_data_dir = '/home/datawork-lops-osi/data/mit4320/'
+    root_data_dir = '/home/datawork-lops-osi/equinox/mit4320/bin/'
     grid_dir = root_data_dir+'grid/'
 except:
     pass
 
-# hal
-try:
-    plateform='hal'
-    tmp = os.getenv('TMPDIR')
-    home = os.getenv('HOME')+'/'
-    scratch = os.getenv('HOME')+'/scratch/'
-    #
-    root_data_dir = '/work/ALT/swot/swotpub/LLC4320/'
-    work_data_dir = '/work/ALT/swot/aval/syn/'
-    grid_dir = root_data_dir+'grid/'
-    grid_dir_nc = root_data_dir+'grid_nc/'
-except:
-    pass
+# # hal
+# try:
+#     plateform='hal'
+#     tmp = os.getenv('TMPDIR')
+#     home = os.getenv('HOME')+'/'
+#     scratch = os.getenv('HOME')+'/scratch/'
+#     #
+#     root_data_dir = '/work/ALT/swot/swotpub/LLC4320/'
+#     work_data_dir = '/work/ALT/swot/aval/syn/'
+#     grid_dir = root_data_dir+'grid/'
+#     grid_dir_nc = root_data_dir+'grid_nc/'
+# except:
+#     pass
 
 
 #------------------------------ mit specific ---------------------------------------

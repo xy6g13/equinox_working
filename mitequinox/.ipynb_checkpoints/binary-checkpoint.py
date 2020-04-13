@@ -109,8 +109,12 @@ def get_compressed_data(varname, data_dir, grid_dir, ds_index=None, ds=None, ite
                                                file_format='*.??????????.data.shrunk')
     
     # load mask from raw data
-    hfac = xm.utils.read_mds(grid_dir + 'hFac' + point,
-                             use_mmap=True, dask_delayed=False, force_dict=False) 
+    
+    hfac = xm.utils.read_mds(grid_dir + 'hFac' + point, use_mmap=True, force_dict=False) 
+    
+    #hfac = xm.utils.read_mds(grid_dir + 'hFac' + point, use_mmap=True, dask_delayed=False, force_dict=False) 
+    
+    
     #hfac = xm.utils.read_mds(grid_dir + 'hFac' + point, llc=True,
     #                         use_mmap=True, use_dask=False, extra_metadata=llc4320)['hFac' + point]
     #                        use_mmap=True, use_dask=False, force_dict=False)['hFac' + point]
