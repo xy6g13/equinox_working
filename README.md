@@ -3,13 +3,11 @@ Contains code that process mitgcm output for the EQUINOx project (and something 
 
 - Geostrophy_assessment: To examine the validity of geostrophic balance. Momentum balances are also assessed. 
 
-- Lag_vs_Eul_LLC4320: To perform Lagrangian and Eulerian comparisons spectrally. 
+- Lagrangian_vs_Eulerian_LLC4320: To perform Lagrangian and Eulerian comparisons spectrally. 
 
-- sandbox/ : Rotary spectra of horizontal velocity from drifter obs. and LLC4320 output (Yu et al. 2019 GRL); first trials with xmitgcm, basic stuff
+- sandbox/: Rotary spectra of horizontal velocity from drifter obs. and LLC4320 output (Yu et al. 2019 GRL); first trials with xmitgcm, basic stuff
 
 - GRL_LLC4320_Drifter_2019: Figures in Yu et al. 2019
-
-- KE_LLC4320/: LLC4320 output over the OSMOSIS region (from Z. Erickson) to assess KE exchanges and to test some of my ideas to work in future. 
 
 - doc/ : conda and git info
 
@@ -18,7 +16,7 @@ Contains code that process mitgcm output for the EQUINOx project (and something 
 ---
 ## install
 
-All scripts require python librairies that may be installed with conda according to the following instructions [here](https://github.com/apatlpo/mit_equinox/blob/master/doc/CONDA.md)
+All scripts require python librairies that may be installed with conda according to the following instructions [here](https://github.com/apatlpo/mit_equinox/blob/master/doc/conda.md)
 
 ---
 ## run on datarmor:
