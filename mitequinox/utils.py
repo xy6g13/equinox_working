@@ -147,7 +147,7 @@ def load_data(V, ftype="zarr", merge=True, **kwargs):
 
 
 def load_data_zarr(v):
-    return xr.open_zarr(root_data_dir + "zarr/" + v + ".zarr")
+    return xr.open_zarr(ref_data_dir + v + ".zarr")
 
 
 def load_data_nc(v, suff="_t*", files=None, **kwargs):

@@ -1,0 +1,5 @@
+ssh -N -L 8877:r2i0n1:8877 -L 8787:r2i0n1:8787 xyu@datarmor1-10g
+(Change the first port number if it is already used)
+Then open the following URLs:
+	Jupyter lab: http://localhost:8877
+	Dask dashboard: http://localhost:8787
