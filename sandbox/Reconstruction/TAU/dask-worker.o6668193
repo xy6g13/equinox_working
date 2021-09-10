@@ -1,0 +1,110 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:57883'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:35473'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:33082'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:45955'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:36991'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:59190'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.0.55:47756'
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:50486
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:56347
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:41725
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:50486
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:56347
+distributed.worker - INFO -          dashboard at:          10.148.0.55:32835
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:41725
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:46436
+distributed.worker - INFO -          dashboard at:          10.148.0.55:58532
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO -          dashboard at:          10.148.0.55:58643
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:34227
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:56128
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:    tcp://10.148.0.55:48715
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:34227
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:56128
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:48715
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:          10.148.0.55:49214
+distributed.worker - INFO -          dashboard at:          10.148.0.55:56265
+distributed.worker - INFO -          dashboard at:          10.148.0.55:52200
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-uoplgp55
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:    tcp://10.148.0.55:46436
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-3i6h1u1b
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-a46jfnz_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:          10.148.0.55:42813
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.0.250:42597
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-ktcysw9q
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-5thsmeve
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-wmfhvna5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                  15.97 GiB
+distributed.worker - INFO -       Local Directory: /dev/shm/pbs.6668193.datarmor0/dask-worker-space/worker-rw_an1cd
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:   tcp://10.148.0.250:42597
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Terminated
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:57883'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:35473'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:33082'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:45955'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:36991'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:59190'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.0.55:47756'
+distributed.nanny - INFO - Worker process 15254 was killed by unknown signal
+distributed.nanny - INFO - Worker process 15252 was killed by unknown signal
+distributed.nanny - INFO - Worker process 15245 was killed by unknown signal
+distributed.nanny - INFO - Worker process 15247 was killed by unknown signal
+distributed.nanny - INFO - Worker process 15243 was killed by unknown signal
+distributed.nanny - INFO - Worker process 15256 was killed by unknown signal
+distributed.nanny - INFO - Worker process 15250 was killed by unknown signal
+distributed.dask_worker - INFO - End worker
