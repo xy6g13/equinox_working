@@ -1,11 +1,11 @@
 # equinox mit
 Contains python scripts that process mitgcm LLC4320 output for the EQUINOx project (with A. Ponte and others) 
 
-- Geostrophy_assessment: To examine the validity of geostrophic balance, and horizontal momentum budget globally (submitted to JGR oceans). 
+- Lagrangian_vs_Eulerian_LLC4320: To perform Lagrangian and Eulerian comparisons spectrally (on-going work). 
 
-- Lagrangian_vs_Eulerian_LLC4320: To perform Lagrangian and Eulerian comparisons spectrally (on going work). 
+- Geostrophy_assessment: To assess the validity of geostrophic approximation, and horizontal momentum balance globally (Yu et al. 2021JGR:oceans). 
 
-- sandbox/: Rotary spectra of horizontal velocity from drifter obs. and LLC4320 output (Yu et al. 2019 GRL); basic stuff; some tests
+- sandbox/: Rotary spectra of horizontal velocity from drifter observations and LLC4320 output (Yu et al. 2019 GRL); basic stuff; some tests
 
 - doc/: conda and git info
 
