@@ -1,0 +1,47 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Mon May 29 02:49:15 GMT 2023
+jlab.py:30: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif dashinfo is not '0':
+jlab.py:33: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if dashinfo is not '0':
+Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+{"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+{"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+
+[I 2023-05-29 02:49:47.859 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-05-29 02:49:47.873 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-05-29 02:50:14.533 ServerApp] panel | extension was found and enabled by nbclassic. Consider moving the extension to Jupyter Server's extension paths.
+[I 2023-05-29 02:50:14.533 ServerApp] panel | extension was successfully linked.
+[I 2023-05-29 02:50:14.533 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-05-29 02:50:15.412 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-05-29 02:50:15.414 LabApp] JupyterLab extension loaded from /home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.8/site-packages/jupyterlab
+[I 2023-05-29 02:50:15.414 LabApp] JupyterLab application directory is /home1/datahome/xyu/.miniconda3/envs/equinox/share/jupyter/lab
+[I 2023-05-29 02:50:15.417 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-05-29 02:50:15.418 ServerApp] panel | extension was successfully loaded.
+[I 2023-05-29 02:50:15.418 ServerApp] Serving notebooks from local directory: /home1/datahome/xyu
+[I 2023-05-29 02:50:15.418 ServerApp] Jupyter Server 1.9.0 is running at:
+[I 2023-05-29 02:50:15.418 ServerApp] http://r1i3n32:8877/lab
+[I 2023-05-29 02:50:15.418 ServerApp]  or http://127.0.0.1:8877/lab
+[I 2023-05-29 02:50:15.418 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 2023-05-29 02:50:42.364 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[I 2023-05-29 02:50:43.293 LabApp] Build is up to date
+[E 2023-05-29 02:50:45.106 LabApp] Fail to get yarn configuration. {"type":"error","data":"An unexpected error occurred: \"ENOENT: no such file or directory, open '/home1/.yarnrc'\"."}
+    {"type":"info","data":"If you think this is a bug, please open a bug report with the information provided in \"/home1/datahome/xyu/.miniconda3/envs/equinox/lib/python3.8/site-packages/jupyterlab/yarn-error.log\"."}
+    {"type":"info","data":"Visit https://yarnpkg.com/en/docs/cli/config for documentation about this command."}
+    
+[W 2023-05-29 02:50:47.072 ServerApp] Notebook OSMOSIS_moorings/KE_LLC4320/Diagnostics/Steric_height/steric_height_glider_trajectory.ipynb is not trusted
+[W 2023-05-29 02:50:47.832 ServerApp] Notebook OSMOSIS_moorings/KE_LLC4320/Diagnostics/Steric_height/steric_height_from_Buoy.ipynb is not trusted
+[I 2023-05-29 02:50:50.204 ServerApp] Kernel started: 7125e978-0816-4920-9e9c-f3dc2b4f4055
+[I 2023-05-29 02:50:51.177 ServerApp] Kernel started: bbbf05f7-9804-457c-a81b-4b964068858b
+readline: /etc/inputrc: line 19: term: unknown variable name
+readline: /etc/inputrc: line 19: term: unknown variable name
+Terminated
+[C 2023-05-29 03:07:50.244 ServerApp] received signal 15, stopping
+[I 2023-05-29 03:07:50.254 ServerApp] Shutting down 2 kernels
+[I 2023-05-29 03:07:50.254 ServerApp] Kernel shutdown: 7125e978-0816-4920-9e9c-f3dc2b4f4055
+[I 2023-05-29 03:07:50.255 ServerApp] Kernel shutdown: bbbf05f7-9804-457c-a81b-4b964068858b
+[I 2023-05-29 03:07:51.000 ServerApp] Shutting down 0 terminals
