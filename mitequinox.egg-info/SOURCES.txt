@@ -1,0 +1,15 @@
+README.md
+setup.py
+mitequinox/__init__.py
+mitequinox/binary.py
+mitequinox/drifters.py
+mitequinox/dynamic.py
+mitequinox/parcels.py
+mitequinox/plot.py
+mitequinox/rw.py
+mitequinox/sigp.py
+mitequinox/utils.py
+mitequinox.egg-info/PKG-INFO
+mitequinox.egg-info/SOURCES.txt
+mitequinox.egg-info/dependency_links.txt
+mitequinox.egg-info/top_level.txt
